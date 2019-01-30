@@ -1,0 +1,2 @@
+<h2>You're current membership is: <cfif rc.oUser.getNMembership() eq 1>Standard<cfelseif rc.oUser.getNMembership() eq 2>Premium<cfelseif rc.oUser.getNMembership() eq 3>Premium+Mail</cfif></h2>
+<cfoutput>#view("user/membership")#</cfoutput>

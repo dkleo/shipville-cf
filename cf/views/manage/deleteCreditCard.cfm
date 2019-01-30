@@ -1,0 +1,1 @@
+<cfoutput>#serializeJSON(rc.stResults)#</cfoutput>

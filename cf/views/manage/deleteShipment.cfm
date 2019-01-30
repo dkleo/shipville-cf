@@ -1,0 +1,1 @@
+<cfoutput>#serializeJSON(rc.bIsDeleted)#</cfoutput>
